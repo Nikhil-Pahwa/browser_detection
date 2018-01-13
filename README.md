@@ -4,14 +4,14 @@ A small JS utility to detect browser. This untility detect browser based on [duc
 The code is written in [module pattern](https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc)
 
 ## Browser support
-Currently it support following browser but it can be easily extend to mobile or other browser.
+Currently it support following browser but it can be easily extended to mobile or other browser.
 
 * IE (6-11)
 * IE Edge
 * Chrome
 * Opera 8.0+
 * Firefox 1.0+
-* Safari 3.0+ "[object HTMLElementConstructor]"
+* Safari 3.0+ 
 * Blink
 
 ## Reference
