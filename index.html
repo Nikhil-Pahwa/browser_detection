@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./detect_browser.js"></script>
+    <script>
+        var output = '<b>Detecting browsers by ducktyping:</b><hr><br>';
+        output += 'isFirefox: ' + detectBrowser.isFirefox + '<br>';
+        output += 'isChrome: ' + detectBrowser.isChrome + '<br>';
+        output += 'isSafari: ' + detectBrowser.isSafari + '<br>';
+        output += 'isOpera: ' + detectBrowser.isOpera + '<br>';
+        output += 'isIE: ' + detectBrowser.isIE + '<br>';
+        output += 'isEdge: ' + detectBrowser.isEdge + '<br>';
+        output += 'isBlink: ' + detectBrowser.isBlink + '<br>';
+        document.write(output);
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
